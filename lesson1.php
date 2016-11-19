@@ -54,6 +54,31 @@ key: 3
 value: cat,
 */
 		?>
+		
+		<h1>Superglobals</h1>
+		
+		<h1>Booleans</h1>
+		
+		<?php 
+
+$areWeHavingFun = true; //boolean
+$seriously = "false"; //string
+		
+		?>
+		
+		<h1>NULL</h1>
+		
+		<?php 
+
+$var1 = $var2; //var1 is null because the value of var2 has not been set
+
+$var1 = "null"; //var1 is not equal to null because it takes the value of a string
+
+$var1 = NULL; //var1 is again equal to null;
+		
+		?>
+		
+		
 	
 	
 	</body>
