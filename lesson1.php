@@ -85,6 +85,16 @@ $var1 = NULL; //var1 is again equal to null;
 define('FAVORITE_ANIMAL', 'Dogs');
 		
 		?>
+		
+		<h1>Numbers</h1>
+		
+		<?php 
+
+$int1 = 56;
+
+$float1 = 4.5;
+		
+		?>
 	
 	
 	</body>
