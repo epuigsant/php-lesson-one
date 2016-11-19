@@ -95,6 +95,39 @@ $int1 = 56;
 $float1 = 4.5;
 		
 		?>
+		
+		<h1>Conditional Statements</h1>
+		
+		<?php 
+
+if ($var1 = $var2) {
+	
+	echo "these variables are the same";
+}
+
+
+
+if ($sky = "blue") {
+	echo "sunny"
+}	else {
+	echo "Cloudy";
+}	
+		
+		?>
+		
+		<?php
+
+$number = 1; //base value of variable
+
+while ($number <= 10) { //comparison to see if number is less than or equal to 10
+	echo $number; //echo value of variable number
+	$number++; //increment variable number by one
+}
+		
+		
+		?>
+		
+		
 	
 	
 	</body>
