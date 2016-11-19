@@ -23,7 +23,7 @@ $friday = "Monday" //same variable given different value
 		
 		<?php 
 	
-$stringTest = "I am assigning this string to a variable names $stringTest";
+$stringTest = "I am assigning \"this\" string to a variable names $stringTest";
 //This sentence is a string
 $stringTest2 = "string"; //a string can be a word, doesn't have to be a sentence
 $stringTest3 = "a 1 ewj...1/2 shsydynsknskans sjdbjdnjsdb"; //also a string
@@ -82,7 +82,7 @@ $var1 = NULL; //var1 is again equal to null;
 		
 		<?php 
 
-define('FAVORITE_ANIMAL', 'Dogs');
+define("FAVORITE_ANIMAL", "Dogs");
 		
 		?>
 		
@@ -124,11 +124,24 @@ while ($number <= 10) { //comparison to see if number is less than or equal to 1
 	$number++; //increment variable number by one
 }
 		
+		?>
+		
+		<h1>Functions</h1>
+		
+		<?php 
+
+//Single line comment
+
+/* Multiline
+Still a comment
+..and another line
+
+*/
 		
 		?>
 		
+		<!-- Outside of PHP Comment -->
 		
-	
 	
 	</body>
 
