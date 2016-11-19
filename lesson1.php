@@ -31,6 +31,29 @@ $stringTest3 = "a 1 ewj...1/2 shsydynsknskans sjdbjdnjsdb"; //also a string
 echo "This is also a string - no variable needed";
 	
 		?>
+		
+		<h1>Arrays</h1>
+		
+		<?php 
+
+$dogs = array("shetland", "golden");
+$animals = array($dogs, "frog", "elephant", "cat", "wolf"); //you can have an array within an array
+/* 
+key:value pairs
+
+key:0
+value:dog,
+
+key:1
+value:frog,
+
+key:2
+value:elephant,
+
+key: 3
+value: cat,
+*/
+		?>
 	
 	
 	</body>
