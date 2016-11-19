@@ -78,7 +78,13 @@ $var1 = NULL; //var1 is again equal to null;
 		
 		?>
 		
+		<h1>Constants</h1>
 		
+		<?php 
+
+define('FAVORITE_ANIMAL', 'Dogs');
+		
+		?>
 	
 	
 	</body>
